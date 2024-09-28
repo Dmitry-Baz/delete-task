@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Описание главной страницы" />
+    <meta name="keywords" content="описание, описание главной страницы. Просто ключевые слова для поисковиков." />
+    <title>Обработчики событий</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" defer></script>
+</head>
+    <body>
+        <div>
+            <p>Первый абзац</p>
+            <p>Второй абзац</p>
+            <p>Третий абзац</p>
+        </div>
+        <hr/>
+        <button id="openModalButton">Удалить задачу</button>
+        <div class="modal-overlay modal-overlay_hidden">
+            <div class="delete-modal">
+                <h3 class="delete-modal__question">
+                    Вы действительно хотите удалить эту задачу?
+                </h3>
+                <div class="delete-modal__buttons">
+                    <button class="delete-modal__button delete-modal__cancel-button">
+                        Отмена
+                    </button>
+                    <button class="delete-modal__button delete-modal__confirm-button">
+                        Удалить
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+
+
+    
+    </body>
+</html>
