@@ -6,7 +6,7 @@
     <meta name="description" content="Описание главной страницы" />
     <meta name="keywords" content="описание, описание главной страницы. Просто ключевые слова для поисковиков." />
     <title>Обработчики событий</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/index.css">
     <script src="scripts/script.js" defer></script>
 </head>
     <body>
@@ -32,6 +32,27 @@
                 </div>
             </div>
         </div>
+        <hr/>
+        <div id="tasks">
+            <div class="tasks__wrapper">
+              <form class="create-task-block">
+                <input
+                  name="taskName"
+                  class="create-task-block__input default-text-input"
+                  type="text"
+                  placeholder="Создайте новую задачу"
+                  value="Посмотреть урок по JavaScript"
+                />
+                <button
+                  type="submit"
+                  class="create-task-block__button default-button"
+                >
+                  Создать
+                </button>
+              </form>
+              <div class="tasks-list"></div>
+            </div>
+          </div>
         
 
 
